@@ -8,3 +8,7 @@ class Solution:
                 nums[i] = nums[j]
                 i+=1
         return i
+
+def removeElement(nums, val):
+    nums = [x for x in nums if x != val]
+    return nums
